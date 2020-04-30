@@ -1,0 +1,65 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: Minifo - Minimal Portfolio HTML Template 
+    Template URI: http://devitems.com
+    Description: This is html5 template
+    Author: DevItems
+    Author URI: http://devitems.com
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+    
+    CSS INDEX
+    ===================
+    1. Default css
+    2. Hamburgers min css
+    3. Header css
+    4. Animate headline css
+    5. Slider css
+    6. Portfolio css
+    7. Service css
+    8. Testimonial css
+    9. Breadcrumb css
+    10. Blog css
+    11. Footer css
+    
+-----------------------------------------------------------------------------------*/
+
+/* 1. Default css */
+@import url("default.css");
+
+/* 2. Hamburgers min css */
+@import url("hamburgers.min.css");
+
+/* 3. Header css */
+@import url("header.css");
+
+/* 4. Animate headline css */
+@import url("animate-headline.css");
+
+/* 5. Slider css */
+@import url("slider.css");
+
+/* 6. Portfolio css */
+@import url("portfolio.css");
+
+/* 7. Service css */
+@import url("service.css");
+
+/* 8. Testimonial css */
+@import url("testimonial.css");
+
+/* 9. Breadcrumb css */
+@import url("breadcrumb.css");
+
+/* 10. Blog css */
+@import url("blog.css");
+
+/* 11. Footer css */
+@import url("footer.css");
+
+
+
+
+
+
