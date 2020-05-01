@@ -553,6 +553,9 @@
   .slider-style-6.again-style > p {
     width: 100%;
   }
+  #copyright {
+    display: none;
+  }
 }
 
 /* Large Mobile :480px. */
@@ -585,5 +588,8 @@
   .footer-4 .social-icon a {
     float: left;
     margin: 0 17px 0 0;
+  }
+  #copyright {
+    display: hidden;
   }
 }
