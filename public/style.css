@@ -22,19 +22,22 @@
 .single-count {
   text-align: center;
 }
-.count-icon {
-}
+
+.count-icon {}
+
 .count-icon span {
   font-size: 35px;
 }
-.count-title {
-}
+
+.count-title {}
+
 .count-title h2 {
   color: #fff;
   font-size: 40px;
   font-weight: 300;
   margin: 15px 0;
 }
+
 .count-title span {
   color: #fff;
   font-size: 16px;
@@ -42,10 +45,12 @@
   margin: 0;
   text-transform: capitalize;
 }
+
 .hover-style {
   display: block;
   position: relative;
 }
+
 .hover-style::before {
   background: #fff none repeat scroll 0 0;
   content: '';
@@ -57,20 +62,24 @@
   transition: all 0.3s ease-in-out 0s;
   width: 100%;
 }
+
 .hover-style:hover::before {
   opacity: 0.95;
 }
+
 .bg-img {
-  background: rgba(0, 0, 0, 0) url('img/bg-2.jpg') repeat scroll center center /
-    cover;
+  background: rgba(0, 0, 0, 0) url('img/bg-2.jpg') repeat scroll center center / cover;
   height: 100vh;
 }
+
 .count-icon {
   color: #fff;
 }
+
 .img-overly {
   position: relative;
 }
+
 .img-overly::before {
   background: #000 none repeat scroll 0 0;
   bottom: 0;
@@ -84,17 +93,18 @@
   width: 100%;
 }
 
-.about-minimal {
-}
-.about-minimal h2 {
-}
-.minimal-img > img {
+.about-minimal {}
+
+.about-minimal h2 {}
+
+.minimal-img>img {
   width: 100%;
 }
-.about-minimal {
-}
-.about-minimal ul {
-}
+
+.about-minimal {}
+
+.about-minimal ul {}
+
 .about-minimal ul li {
   border-top: 1px solid #f6f6f6;
   display: block;
@@ -104,9 +114,11 @@
   padding: 15px 0;
   position: relative;
 }
+
 .about-minimal ul li:last-child {
   border-bottom: 1px solid #eceaeb;
 }
+
 .about-minimal ul li::before {
   color: #444;
   content: '';
@@ -118,6 +130,7 @@
   position: relative;
   top: 1px;
 }
+
 .about-minimal a {
   border: 1px solid #ddd;
   display: inline-block;
@@ -128,28 +141,35 @@
   padding: 12px 25px;
   text-transform: uppercase;
 }
+
 .about-minimal a:hover {
   background: #464646;
   color: #fff;
   border-color: #464646;
 }
+
 .single-skill-about {
   text-align: center;
 }
+
 .progress-h4 {
   font-size: 22px;
   font-weight: 400;
 }
-.about-us-text > p {
+
+.about-us-text>p {
   color: #666;
 }
+
 .team-member {
   position: relative;
 }
-.team-member > img {
+
+.team-member>img {
   filter: grayscale(100%);
   width: 100%;
 }
+
 .team-member::before {
   background: transparent none repeat scroll 0 0;
   content: ' ';
@@ -162,12 +182,15 @@
   width: 100%;
   z-index: 1;
 }
+
 .team-wrapper:hover .team-member::before {
   background: rgba(33, 40, 45, 0.55);
 }
+
 .team-info {
   padding: 15px 0;
 }
+
 .team-text-icon {
   left: 0;
   position: absolute;
@@ -179,10 +202,12 @@
   opacity: 0;
   transition: all 0.3s ease 0s;
 }
+
 .team-info {
   padding: 15px 0;
 }
-.team-icon > a {
+
+.team-icon>a {
   border: 1px solid transparent;
   color: #fff;
   display: inline-block;
@@ -194,36 +219,44 @@
   border-radius: 50%;
   margin: 0 10px;
 }
-.team-icon > a:hover {
+
+.team-icon>a:hover {
   background: #fff;
   color: #666;
 }
-.team-wrapper:hover .team-icon > a {
+
+.team-wrapper:hover .team-icon>a {
   margin: 0 5px;
 }
+
 .team-wrapper:hover .team-text-icon {
   opacity: 1;
 }
+
 .team-info h3 {
   font-size: 20px;
   text-transform: uppercase;
   color: #fff;
 }
+
 .team-info span {
   color: #fff;
   text-transform: uppercase;
 }
-.team-member > img {
+
+.team-member>img {
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
 }
-.about-minimal > p {
+
+.about-minimal>p {
   font-size: 15px;
   line-height: 28px;
   margin: 0 auto;
   text-align: center;
   width: 95%;
 }
+
 .about-minimal h2::before {
   background-color: #ccc;
   bottom: 0;
@@ -235,12 +268,14 @@
   right: 0;
   width: 100px;
 }
+
 .about-minimal h2 {
   margin-bottom: 30px;
   padding-bottom: 20px;
   position: relative;
   text-transform: uppercase;
 }
+
 /* Pricing table */
 
 .pricing-top {
@@ -248,11 +283,13 @@
   display: block;
   overflow: hidden;
 }
+
 .single-pricing {
   border: 1px solid #ddd;
   padding: 50px;
   text-align: center;
 }
+
 .pricing-top h3 {
   font-size: 24px;
   font-weight: 600;
@@ -262,6 +299,7 @@
   position: relative;
   text-transform: uppercase;
 }
+
 .pricing-top h3::before {
   background: #666 none repeat scroll 0 0;
   bottom: 0;
@@ -273,28 +311,34 @@
   right: 0;
   width: 60px;
 }
+
 .pricing-top p {
   font-family: dosis;
   font-size: 36px;
   font-weight: 500;
   margin-bottom: 28px;
 }
+
 .pricing-top p span {
   font-size: 18px;
   font-weight: normal;
 }
+
 .pricing-tex li {
   color: #333333;
   font-size: 14px;
   padding-bottom: 22px;
   text-transform: capitalize;
 }
+
 .pricing-tex li:last-child {
   padding-bottom: 0px;
 }
+
 .pricing-tex li i {
   padding-right: 10px;
 }
+
 .price-btn a {
   background-color: transparent;
   border: 1px solid #c1c1c1;
@@ -305,24 +349,29 @@
   text-transform: uppercase;
   transition: all 0.3s ease 0s;
 }
+
 .price-btn a:hover {
   background-color: #464646;
   border: 1px solid #464646;
   color: #fff;
 }
-.pricing-tex > ul {
+
+.pricing-tex>ul {
   padding: 40px 0;
 }
+
 .price-btn .button i {
   font-size: 14px;
   padding-left: 12px;
 }
+
 /*----- 2. Contact us ------*/
 
 #hastech2 {
   height: 402px;
   width: 100%;
 }
+
 h3.main-contact {
   font-size: 20px;
   font-weight: 500;
@@ -330,6 +379,7 @@ h3.main-contact {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
+
 .main-input input {
   background-color: transparent;
   border: 1px solid #ddd;
@@ -339,6 +389,7 @@ h3.main-contact {
   height: 45px;
   padding-left: 20px;
 }
+
 .text-leave2 textarea {
   background: transparent none repeat scroll 0 0;
   border: 1px solid #ddd;
@@ -348,22 +399,24 @@ h3.main-contact {
   margin-bottom: 40px;
   padding: 14px 20px;
 }
-.leave-form input:focus,
-.main-input input:focus,
-.text-leave textarea:focus,
-.text-leave2 textarea:focus {
+
+.leave-form input:focus, .main-input input:focus, .text-leave textarea:focus, .text-leave2 textarea:focus {
   background: transparent none repeat scroll 0 0;
   border: 1px solid #f6f6f6;
 }
+
 .mfp-wrap {
   z-index: 99999999;
 }
+
 .mfp-bg {
   z-index: 9999999;
 }
+
 button {
   cursor: pointer;
 }
+
 /*............. 3. Scrollup   ................*/
 
 #toTop {
@@ -375,6 +428,7 @@ button {
   right: 12px;
   z-index: 9999;
 }
+
 #toTop i {
   background-color: #464646;
   height: 40px;
@@ -382,10 +436,12 @@ button {
   color: #fff;
   line-height: 40px;
 }
+
 #toTop i:hover {
   background-color: #666;
   color: #fff;
 }
+
 .conract-area-bottom {
   margin-top: 50px;
 }
