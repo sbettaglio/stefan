@@ -127,7 +127,7 @@
   .pt-60 {
     padding-top: 30px;
   }
-  .conract-area-bottom {
+  .contact-area-bottom {
     margin-top: 30px;
   }
   h3.main-contact {
@@ -305,7 +305,7 @@
   .ptb-90 {
     padding: 40px 0;
   }
-  .conract-area-bottom {
+  .contact-area-bottom {
     margin-top: 30px;
   }
   h3.main-contact {
@@ -558,7 +558,7 @@
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   .container {
-    width: 450px;
+    width: 100%;
   }
   .waraper {
     padding: 0 50px;
